@@ -48,7 +48,7 @@ jobs:
       - name: Upload static website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: Flare-Fuzz/out
+          path: flare-fuzz/out
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
