@@ -5,6 +5,11 @@ const nextConfig: NextConfig = {
   experimental: {
     agentFeedback: true,
   },
+  output: "export",
+  basePath: "/FlareFuzz",
+  images: {
+    unoptimized: true,
+  },
   cacheComponents: false,
   partialPrefetching: true,
   turbopack: {
