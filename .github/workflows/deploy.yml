@@ -34,12 +34,6 @@ jobs:
       - name: Build Next js
         run: npm run build
 
-      - name: Check exported files
-        run: |
-          pwd
-          ls -la
-          ls -la out
-
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
